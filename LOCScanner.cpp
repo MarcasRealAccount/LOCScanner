@@ -264,6 +264,7 @@ size_t readFromStream(std::istream& stream, std::string& buffer, size_t numBytes
 }
 
 void signalHandler(int s) {
+	std::cout << "\n^C\n";
 	restoreAnsi();
 	exit(SIGINT);
 }
