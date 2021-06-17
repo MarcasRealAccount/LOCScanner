@@ -13,7 +13,7 @@ Make a visual studio project, add the only cpp file and hit `Ctrl+B` or Build, w
 `g++ -O3 -std=c++17 LOCScanner.cpp -o LOCScanner`
 
 ### Clang
-`clang++ -03 -std=c++17 LOCScanner.cpp -o LOCScanner`
+`clang++ -O3 -std=c++17 LOCScanner.cpp -o LOCScanner`
 
 ## How to use?
 If you have not built it already go do that.<br>
