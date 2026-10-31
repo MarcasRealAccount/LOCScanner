@@ -371,6 +371,7 @@ int main(int argc, char** argv) {
 						if (c == '\n') {
 							if (charCount > 0)
 								wordCount++;
+							chars += charCount;
 							if (wordCount > 0)
 								loc++;
 							words += wordCount;
